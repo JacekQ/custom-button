@@ -1,0 +1,36 @@
+{
+  "name": "@jquyek/custom-button",
+  "version": "1.0.0",
+  "description": "A custom button for ReactJS projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "docs": "start-storybook -p 9002 .storybook",
+    "docs:build": "build-storybook -c .storybook -o docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacekQ/custom-button.git"
+  },
+  "author": "Jacek Kujaszewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacekQ/custom-button/issues"
+  },
+  "homepage": "https://github.com/JacekQ/custom-button#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-info": "^5.0.9",
+    "@storybook/components": "^5.0.9",
+    "@storybook/react": "^5.0.9",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "react": "^16.8.6",
+    "storybook-addon-jsx": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
